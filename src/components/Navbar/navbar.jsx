@@ -73,7 +73,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Home
+                INICIO
               </span>
               <div className="dropdown-menu">
                 <Link href="/homepage/home1-dark">
@@ -105,7 +105,7 @@ const Navbar = ({ lr, nr, theme }) => {
             </li>
             <li className="nav-item">
               <Link href="/about/about-dark">
-                <a className="nav-link">About</a>
+                <a className="nav-link">Nosotros</a>
               </Link>
             </li>
             <li className="nav-item dropdown" onClick={handleDropdown}>
@@ -116,7 +116,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Works
+                Portafolio
               </span>
               <div className="dropdown-menu">
                 <Link href="/showcase/showcase-dark">
@@ -147,7 +147,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Blog
+                Servicios
               </span>
               <div className="dropdown-menu">
                 <Link href="/blog/blog-dark">
@@ -166,7 +166,7 @@ const Navbar = ({ lr, nr, theme }) => {
             </li>
             <li className="nav-item">
               <Link href="/contact/contact-dark">
-                <a className="nav-link">Contact</a>
+                <a className="nav-link">Contacto</a>
               </Link>
             </li>
           </ul>
