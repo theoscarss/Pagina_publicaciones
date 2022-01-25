@@ -3,7 +3,7 @@
   "private": true,
   "homepage": "https://publicaciones.com.co/",
   "scripts": {
-    "predeploy": "npm run build  && echo 'mauriciosalazar.com.co' > ./build/CNAME",
+    "predeploy": "npm run build  && echo 'publicacionessalazar.com.co' > ./build/CNAME",
     "deploy": "gh-pages -d build ",  
     "dev": "next dev",
     "build": "next build",
