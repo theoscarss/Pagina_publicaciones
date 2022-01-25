@@ -67,7 +67,7 @@ const NavbarArch = ({ navbarRef, theme }) => {
                 data-toggle="dropdown"
                 data-scroll-nav="0"
               >
-                Inicio
+                Home
               </span>
               <div className="dropdown-menu">
                 <a className="dropdown-item" href="/homepage/home1-dark">
