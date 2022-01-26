@@ -11,6 +11,9 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "gh-pages": "^3.2.3",
     "heroku": "^7.59.2",
